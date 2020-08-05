@@ -1,6 +1,8 @@
 # FPGA-Implementation-of-UART-Communication-Between-ESP32-and-PC
 FPGA Implementation of UART Communication Between ESP32 and PC
+
 开发者：  卢一凡   李启轩
+
 1.本次设计为实现多路UART通讯，由于本小组为线上工作所以没有多个ESP32开发板，和USB接口，故本小组完成ESP32与电脑的UART通讯，并且PC端通过串口发送特定字符时，实现红色LED点亮。当发送完成一个字节时，也点亮绿色LED表示通讯正常。另外，本项目也在每发送8个数据时使用了偶校验，以保证发送数据的质量。
     另外，为了测试ESP32接收到数据的正确性，我们的演示的实验内容是将PC端发送的数据再传回给电脑，形成一个回环，以测试整个程序的正确性。
 
